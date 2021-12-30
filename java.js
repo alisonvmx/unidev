@@ -16,8 +16,6 @@ function limpar () {
     for( var i=0; i<value.length;i++){
     console.log(value[i]);
     }
-
-    value.textcontent = value;
 }
 
 bt.addEventListener ('click', limpar);
